@@ -1,0 +1,33 @@
+git add 文件地址   将文件提交到暂存区
+git add . 全部文件
+
+git status 查看暂存区内容
+
+git commit -m ‘’提交
+
+git commit -am ‘’ 直接提交 不需要再add
+
+git restore --staged 文件名 撤回
+
+git reset HEAD 文件名 撤回
+
+git log 查看日志
+
+git log --pretty=oneline 查看日志
+
+git reset --hard HEAD^ 撤回上一个版本
+
+git reset --hard HEAD~2 撤回上两个个版本
+
+git reset --hard e5c58a7af09cdebbd83bbaa89f16e91437dc81a1(提交代码的唯一标识) 直接到这个版本  就算撤回也可以
+
+linux 复制ctrl+ins  粘贴shift+ins
+
+git reflog 查找所有日志信息
+
+
+git ls-files 查看git仓库下所有文件
+
+git checkout 文件名  拉取文件
+
+git rm 文件名  删除文件
